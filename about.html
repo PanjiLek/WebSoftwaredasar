@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tentang Web Ini</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9; /* Latar belakang terang */
+        color: #333; /* Warna teks yang kontras */
+      }
+
+      header {
+        background-color: #007bff; /* Warna latar belakang header */
+        color: white; /* Warna teks di header */
+        padding: 20px;
+        text-align: center; /* Rata tengah */
+      }
+
+      main {
+        padding: 20px;
+        background-color: white; /* Latar belakang putih untuk teks */
+        margin: 20px; /* Menambahkan margin di atas dan bawah */
+        border-radius: 8px; /* Menambahkan sudut melengkung */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+      }
+
+      h2 {
+        color: #007bff; /* Warna judul */
+      }
+
+      footer {
+        text-align: center; /* Rata tengah */
+        padding: 10px;
+        background-color: #f1f1f1; /* Warna latar belakang footer */
+        position: relative; /* Posisi relatif untuk footer */
+        bottom: 0;
+        width: 100%;
+      }
+
+      /* Gaya untuk tautan kembali */
+      a.back-link {
+        display: inline-block; /* Menampilkan tautan sebagai block */
+        text-decoration: none; /* Menghapus garis bawah */
+        padding: 10px 15px; /* Padding untuk tautan */
+        background-color: #45a049; /* Warna latar belakang */
+        color: white; /* Warna teks */
+        border-radius: 5px; /* Sudut melengkung */
+        margin-top: 20px; /* Jarak atas */
+        transition: background-color 0.3s; /* Transisi warna saat hover */
+        text-align: center; /* Rata tengah teks di tautan */
+      }
+
+      a.back-link:hover {
+        background-color: #379737; /* Warna latar belakang saat hover */
+      }
+
+      p {
+        text-align: justify; /* Rata kanan-kiri untuk teks */
+      }
+
+      ol {
+        margin: 20px 0; /* Margin untuk daftar terurut */
+      }
+
+      li {
+        margin-bottom: 10px; /* Jarak antar item dalam daftar */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tentang Web Ini</h1>
+    </header>
+
+    <main>
+      <h2>Deskripsi</h2>
+      <p>
+        Web ini dibuat sebagai sarana untuk mengenal berbagai software dasar
+        yang sering digunakan di komputer. Dengan informasi yang disajikan,
+        diharapkan pengguna dapat memahami fungsi dan fitur dari software
+        tersebut serta cara menggunakannya dengan lebih efektif.
+      </p>
+
+      <h2>Tujuan</h2>
+      <p>
+        Tujuan dari web ini adalah untuk memberikan pengetahuan dasar kepada
+        pengguna komputer, khususnya bagi mereka yang baru mengenal teknologi
+        informasi. Dengan memahami berbagai software dasar, pengguna dapat
+        meningkatkan produktivitas dan kemudahan dalam menjalankan tugas
+        sehari-hari.
+      </p>
+
+      <h2>Target Pengguna</h2>
+      <p>
+        Web ini ditujukan untuk siswa, mahasiswa, dan siapa saja yang ingin
+        belajar tentang software dasar di komputer. Tidak dibutuhkan pengalaman
+        sebelumnya, karena informasi disajikan dengan cara yang sederhana dan
+        mudah dipahami.
+      </p>
+
+      <h2>Cara Membuat Web</h2>
+      <ol>
+        <li>
+          <strong>Instalasi Visual Studio</strong><br />
+          Download dan Instal : Kunjungi situs resmi Visual Studio dan unduh
+          versi yang sesuai (misalnya, Visual Studio Community).<br />
+          Pilih Komponen : Saat instalasi, pilih komponen yang diperlukan untuk
+          pengembangan web, seperti ASP.NET dan pengembangan aplikasi web.
+        </li>
+        <li>
+          <strong>Membuat Proyek Baru</strong><br />
+          Buka Visual Studio : Setelah instalasi, buka aplikasi Visual
+          Studio.<br />
+          Buat Proyek Baru : Pilih "Create a new project." Pilih template proyek
+          yang sesuai (misalnya, "ASP.NET Core Web Application" untuk aplikasi
+          web). Tentukan nama proyek dan lokasi penyimpanan, lalu klik "Create."
+        </li>
+        <li>
+          <strong>Mengembangkan Website</strong><br />
+          Desain Halaman : Gunakan fitur drag-and-drop di Visual Studio untuk
+          merancang antarmuka pengguna. Anda juga dapat menulis HTML, CSS, dan
+          JavaScript secara manual.<br />
+          Koding Backend : Jika menggunakan ASP.NET, Anda dapat menulis kode C#
+          untuk menangani logika bisnis dan interaksi dengan database. Database:
+          Jika aplikasi memerlukan penyimpanan data, Anda dapat mengatur
+          database menggunakan Entity Framework atau SQL Server.
+        </li>
+        <li>
+          <strong>Pengujian Website</strong><br />
+          Jalankan Proyek : Tekan F5 untuk menjalankan aplikasi dan melihatnya
+          di browser. Uji semua fitur untuk memastikan semuanya berjalan dengan
+          baik.
+        </li>
+        <li>
+          <strong>Persiapan untuk Hosting</strong><br />
+          Build Proyek : Setelah pengujian selesai, build proyek untuk
+          memastikan semua file siap untuk diunggah. Pilih "Build" > "Build
+          Solution." Siapkan File untuk Hosting: Temukan file yang dihasilkan di
+          folder bin/Release/netcoreappX.X/publish (di mana X.X adalah versi
+          .NET Anda). Ini adalah file yang akan diunggah ke server hosting.
+        </li>
+        <li>
+          <strong>Memilih Penyedia Hosting</strong><br />
+          Pilih Layanan Hosting : Pilih penyedia hosting yang mendukung
+          teknologi yang Anda gunakan (misalnya, ASP.NET). Daftar dan
+          Konfigurasi : Buat akun dan ikuti instruksi untuk mengatur domain dan
+          server Anda.
+        </li>
+        <li>
+          <strong>Mengunggah Website ke Hosting</strong><br />
+          Gunakan FTP atau Panel Kontrol :<br />
+          FTP : Gunakan aplikasi FTP (seperti FileZilla) untuk mengunggah file
+          proyek Anda ke server hosting. Anda akan memerlukan informasi FTP dari
+          penyedia hosting Anda.<br />
+          Panel Kontrol : Beberapa penyedia hosting memiliki panel kontrol
+          (seperti cPanel) yang memungkinkan Anda mengunggah file langsung
+          melalui antarmuka web. Uji Akses: Setelah semua file diunggah, coba
+          akses website Anda melalui browser untuk memastikan semuanya berfungsi
+          dengan baik.
+        </li>
+        <li>
+          <strong>Pemeliharaan dan Pembaruan</strong><br />
+          Pemantauan : Secara rutin pantau website untuk memastikan performa dan
+          keamanan. Pembaruan : Lakukan pembaruan secara berkala untuk konten
+          dan fitur, serta pastikan bahwa server dan perangkat lunak tetap
+          diperbarui.
+        </li>
+      </ol>
+
+      <h2>Pengembang</h2>
+      <p>
+        Web ini dikembangkan oleh <strong>Adam Hendrawan</strong> &
+        <strong>Ahmad Panji Setyawan</strong>, Dua penggiat teknologi informasi
+        yang berkomitmen untuk meningkatkan literasi digital di masyarakat.
+      </p>
+
+      <!-- Tautan kembali ke halaman utama -->
+      <a href="index.html" class="back-link">Kembali ke Halaman Utama</a>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Mengenal Software Dasar di Komputer</p>
+    </footer>
+  </body>
+</html>

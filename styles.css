@@ -1,0 +1,105 @@
+/* Reset CSS untuk menghapus margin dan padding default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif; /* Gaya font untuk seluruh halaman */
+  line-height: 1.6; /* Jarak antar baris */
+  background-image: url("komputerset.jpg"); /* Gambar latar belakang */
+  background-size: cover; /* Menutupi seluruh latar belakang */
+  background-position: center; /* Memusatkan gambar */
+  background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+  background-attachment: fixed; /* Membuat gambar tetap saat scroll */
+}
+
+header {
+  background-color: rgba(
+    0,
+    123,
+    255,
+    0.8
+  ); /* Warna latar belakang header dengan transparansi */
+  color: white; /* Warna teks header */
+  padding: 20px; /* Padding untuk header */
+  text-align: center; /* Rata tengah */
+}
+
+nav ul {
+  list-style-type: none; /* Menghapus bullet pada list */
+  padding: 0; /* Menghapus padding */
+  text-align: center; /* Rata tengah */
+}
+
+nav ul li {
+  display: inline; /* Menampilkan list secara horizontal */
+  margin: 0 15px; /* Jarak antar item */
+}
+
+nav a {
+  text-decoration: none; /* Menghapus garis bawah pada tautan */
+  color: #007bff; /* Warna tautan */
+  transition: color 0.3s; /* Transisi warna saat hover */
+}
+
+nav a:hover {
+  color: #0056b3; /* Warna tautan saat hover */
+}
+
+main {
+  padding: 20px; /* Padding untuk bagian utama */
+}
+
+section {
+  margin-bottom: 20px; /* Jarak antar section */
+  padding: 15px; /* Padding untuk section */
+  border: 1px solid #ccc; /* Border untuk section */
+  border-radius: 5px; /* Sudut melengkung untuk border */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Latar belakang section dengan transparansi */
+  transition: background-color 0.3s; /* Transisi latar belakang saat hover */
+}
+
+section:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    1
+  ); /* Latar belakang section saat hover */
+}
+
+footer {
+  text-align: center; /* Rata tengah untuk footer */
+  padding: 10px; /* Padding untuk footer */
+  background-color: rgba(
+    241,
+    241,
+    241,
+    0.9
+  ); /* Warna latar belakang footer dengan transparansi */
+  position: relative; /* Posisi relative untuk footer */
+  bottom: 0; /* Mengatur footer agar selalu di bawah */
+  width: 100%; /* Lebar footer 100% */
+}
+
+a.more-link {
+  display: inline-block; /* Menampilkan tautan sebagai block */
+  text-decoration: none; /* Menghapus garis bawah */
+  padding: 10px 15px; /* Padding untuk tautan */
+  background-color: #007bff; /* Warna latar belakang */
+  color: white; /* Warna teks */
+  border-radius: 5px; /* Sudut melengkung */
+  margin-top: 10px; /* Jarak atas */
+  transition: background-color 0.3s; /* Transisi latar belakang saat hover */
+}
+
+a.more-link:hover {
+  background-color: #0056b3; /* Warna latar belakang saat hover */
+}

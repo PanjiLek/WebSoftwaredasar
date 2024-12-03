@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adobe Reader</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Gaya untuk tombol */
+      .back-button {
+        display: inline-block;
+        text-decoration: none;
+        padding: 8px 12px; /* Ukuran padding */
+        background-color: #45a049; /* Warna latar belakang */
+        color: white; /* Warna teks */
+        border-radius: 5px; /* Sudut melengkung */
+        margin: 20px 0; /* Jarak atas dan bawah */
+        transition: background-color 0.3s, box-shadow 0.3s; /* Transisi warna dan bayangan */
+        font-size: 16px; /* Ukuran font */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Bayangan yang lebih halus */
+      }
+
+      .back-button:hover {
+        background-color: #45a049; /* Warna saat hover */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Bayangan lebih dalam saat hover */
+      }
+
+      /* Gaya untuk footer */
+      footer p {
+        font-size: 12px; /* Ukuran font lebih kecil untuk hak cipta */
+        text-align: center; /* Rata tengah */
+        margin: 10px 0; /* Jarak atas dan bawah */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Adobe Reader</h1>
+    </header>
+
+    <main>
+      <section>
+        <img
+          src="images/adobereader.jpeg"
+          alt="Adobe Reader"
+          style="width: 100%; max-width: 400px"
+        />
+        <h2>Apa Itu Adobe Reader?</h2>
+        <p>
+          Adobe Reader adalah aplikasi untuk membuka dan membaca file PDF yang
+          dikembangkan oleh Adobe. Aplikasi ini juga mendukung beberapa fitur
+          tambahan seperti pengisian formulir dan penandatanganan dokumen.
+        </p>
+        <h3>Fitur Utama Adobe Reader:</h3>
+        <ul>
+          <li>
+            <strong>Membaca PDF:</strong> Membuka dan membaca dokumen PDF dengan
+            mudah.
+          </li>
+          <li>
+            <strong>Pengisian Formulir:</strong> Mengisi dan menyimpan formulir
+            PDF.
+          </li>
+          <li>
+            <strong>Penandatanganan Dokumen:</strong> Menambahkan tanda tangan
+            digital ke dokumen.
+          </li>
+          <li>
+            <strong>Mode Malam:</strong> Mendukung mode malam untuk membaca
+            dengan nyaman di kondisi cahaya rendah.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Tombol Kembali -->
+      <div>
+        <a href="index.html" class="back-button">Kembali ke Halaman Utama</a>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Mengenal Software Dasar di Komputer</p>
+    </footer>
+  </body>
+</html>

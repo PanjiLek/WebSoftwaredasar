@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WinRAR</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Gaya untuk tombol */
+      .back-button {
+        display: inline-block;
+        text-decoration: none;
+        padding: 8px 12px; /* Ukuran padding */
+        background-color: #45a049; /* Warna latar belakang */
+        color: white; /* Warna teks */
+        border-radius: 5px; /* Sudut melengkung */
+        margin: 20px 0; /* Jarak atas dan bawah */
+        transition: background-color 0.3s, box-shadow 0.3s; /* Transisi warna dan bayangan */
+        font-size: 16px; /* Ukuran font */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Bayangan yang lebih halus */
+      }
+
+      .back-button:hover {
+        background-color: #388e3c; /* Warna saat hover */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Bayangan lebih dalam saat hover */
+      }
+
+      /* Gaya untuk footer */
+      footer p {
+        font-size: 12px; /* Ukuran font lebih kecil untuk hak cipta */
+        text-align: center; /* Rata tengah */
+        margin: 10px 0; /* Jarak atas dan bawah */
+      }
+
+      /* Tambahan gaya untuk pemisah antar bagian */
+      section {
+        margin-bottom: 40px; /* Jarak bawah antara bagian */
+      }
+
+      h2,
+      h3 {
+        margin-top: 20px; /* Jarak atas untuk judul */
+        margin-bottom: 10px; /* Jarak bawah untuk judul */
+      }
+
+      p,
+      ul {
+        margin-bottom: 15px; /* Jarak bawah untuk paragraf dan list */
+      }
+
+      /* Gaya untuk paragraf tautan YouTube */
+      .youtube-link {
+        margin-top: 20px; /* Jarak atas */
+        margin-bottom: 20px; /* Jarak bawah */
+        font-size: 14px; /* Ukuran font */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>WinRAR</h1>
+    </header>
+
+    <main>
+      <section>
+        <img
+          src="images/winrar.jpeg"
+          alt="WinRAR"
+          style="width: 100%; max-width: 400px"
+        />
+        <h2>Apa Itu WinRAR?</h2>
+        <p>
+          WinRAR adalah aplikasi kompresi file yang dikembangkan oleh RARLAB.
+          Aplikasi ini digunakan untuk mengompresi, mengekstrak, dan mengelola
+          arsip file dalam berbagai format, termasuk RAR dan ZIP.
+        </p>
+        <h3>Fitur Utama WinRAR:</h3>
+        <ul>
+          <li>
+            <strong>Kompresi File:</strong> Mengompresi file untuk menghemat
+            ruang penyimpanan.
+          </li>
+          <li>
+            <strong>Ekstraksi File:</strong> Mendukung ekstraksi berbagai format
+            arsip seperti RAR, ZIP, 7z, dan lainnya.
+          </li>
+          <li>
+            <strong>Enkripsi:</strong> Melindungi arsip dengan kata sandi dan
+            enkripsi AES-256.
+          </li>
+          <li>
+            <strong>Pembuatan Arsip Multi-Volume:</strong> Membagi arsip menjadi
+            beberapa bagian kecil.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Bagian Soal Latihan -->
+      <section>
+        <h2>Soal Latihan</h2>
+        <ol>
+          <li>Sebutkan dua format arsip yang didukung oleh WinRAR!</li>
+          <li>Bagaimana cara mengompresi file menggunakan WinRAR?</li>
+          <li>
+            Jelaskan langkah-langkah untuk mengekstrak arsip menggunakan WinRAR!
+          </li>
+        </ol>
+      </section>
+
+      <!-- Bagian Cara Penggunaan Aplikasi -->
+      <section>
+        <h2>Cara Penggunaan WinRAR</h2>
+        <ol>
+          <li>
+            Buka aplikasi WinRAR dari menu Start atau shortcut di desktop.
+          </li>
+          <li>
+            Untuk mengompresi file, pilih file atau folder yang ingin
+            dikompresi, klik kanan, dan pilih "Add to archive..."
+          </li>
+          <li>
+            Di jendela yang muncul, Anda dapat memilih format arsip dan mengatur
+            pengaturan lainnya.
+          </li>
+          <li>
+            Klik "OK" untuk memulai proses kompresi. Arsip baru akan muncul di
+            lokasi yang sama.
+          </li>
+          <li>
+            Untuk mengekstrak arsip, buka file arsip dengan WinRAR dan klik
+            "Extract To" untuk memilih lokasi penyimpanan.
+          </li>
+        </ol>
+
+        <!-- Menambahkan tautan ke video tutorial YouTube dengan jarak -->
+        <p class="youtube-link">
+          Untuk tutorial lebih lanjut, Anda dapat menonton video di YouTube
+          tentang WinRAR di tautan berikut:
+          <a href="https://www.youtube.com/watch?v=d4PnqZvaDi4" target="_blank"
+            >Tonton Tutorial WinRAR di YouTube</a
+          >.
+        </p>
+      </section>
+
+      <!-- Tombol Kembali -->
+      <div>
+        <a href="index.html" class="back-button">Kembali ke Halaman Utama</a>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Mengenal Software Dasar di Komputer</p>
+    </footer>
+  </body>
+</html>

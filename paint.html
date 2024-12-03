@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paint</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Gaya untuk tombol */
+      .back-button {
+        display: inline-block;
+        text-decoration: none;
+        padding: 8px 12px; /* Ukuran padding */
+        background-color: #45a049; /* Warna latar belakang */
+        color: white; /* Warna teks */
+        border-radius: 5px; /* Sudut melengkung */
+        margin: 20px 0; /* Jarak atas dan bawah */
+        transition: background-color 0.3s, box-shadow 0.3s; /* Transisi warna dan bayangan */
+        font-size: 16px; /* Ukuran font */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Bayangan yang lebih halus */
+      }
+
+      .back-button:hover {
+        background-color: #388e3c; /* Warna saat hover */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Bayangan lebih dalam saat hover */
+      }
+
+      /* Gaya untuk footer */
+      footer p {
+        font-size: 12px; /* Ukuran font lebih kecil untuk hak cipta */
+        text-align: center; /* Rata tengah */
+        margin: 10px 0; /* Jarak atas dan bawah */
+      }
+
+      /* Tambahan gaya untuk pemisah antar bagian */
+      section {
+        margin-bottom: 40px; /* Jarak bawah antara bagian */
+      }
+
+      h2,
+      h3 {
+        margin-top: 20px; /* Jarak atas untuk judul */
+        margin-bottom: 10px; /* Jarak bawah untuk judul */
+      }
+
+      p,
+      ul {
+        margin-bottom: 15px; /* Jarak bawah untuk paragraf dan list */
+      }
+
+      /* Gaya untuk paragraf tautan YouTube */
+      .youtube-link {
+        margin-top: 20px; /* Jarak atas */
+        margin-bottom: 20px; /* Jarak bawah */
+        font-size: 14px; /* Ukuran font */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Paint</h1>
+    </header>
+
+    <main>
+      <section>
+        <img
+          src="images/paint.jpeg"
+          alt="Paint"
+          style="width: 100%; max-width: 400px"
+        />
+        <h2>Apa Itu Paint?</h2>
+        <p>
+          Paint adalah aplikasi pengeditan gambar sederhana yang tersedia di
+          Windows. Aplikasi ini memungkinkan pengguna untuk menggambar, mengedit
+          gambar, dan melakukan berbagai tugas pengeditan gambar dasar.
+        </p>
+        <h3>Fitur Utama Paint:</h3>
+        <ul>
+          <li>
+            <strong>Menggambar:</strong> Menyediakan alat sederhana seperti
+            pensil, kuas, dan bentuk.
+          </li>
+          <li>
+            <strong>Pewarnaan:</strong> Mengisi area tertutup dengan warna yang
+            dipilih.
+          </li>
+          <li>
+            <strong>Pengeditan Dasar:</strong> Mengubah ukuran, memotong, dan
+            memutar gambar.
+          </li>
+          <li>
+            <strong>Simpan dalam Berbagai Format:</strong> Menyimpan gambar
+            dalam format JPEG, PNG, BMP, dan lainnya.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Bagian Soal Latihan -->
+      <section>
+        <h2>Soal Latihan</h2>
+        <ol>
+          <li>Sebutkan dua fitur utama dari aplikasi Paint!</li>
+          <li>Bagaimana cara menyimpan gambar yang telah diedit di Paint?</li>
+          <li>
+            Jelaskan langkah-langkah untuk menggambar menggunakan alat kuas di
+            Paint!
+          </li>
+        </ol>
+      </section>
+
+      <!-- Bagian Cara Penggunaan Aplikasi -->
+      <section>
+        <h2>Cara Penggunaan Paint</h2>
+        <ol>
+          <li>Buka aplikasi Paint dari menu Start atau shortcut di desktop.</li>
+          <li>
+            Pilih alat menggambar yang diinginkan dari toolbar di sebelah kiri.
+          </li>
+          <li>Gunakan mouse untuk menggambar di area kanvas.</li>
+          <li>
+            Jika ingin mengubah warna, pilih warna dari palet di bagian atas.
+          </li>
+          <li>
+            Setelah selesai menggambar, simpan gambar dengan mengklik "File" >
+            "Save As" dan pilih format yang diinginkan.
+          </li>
+        </ol>
+
+        <!-- Menambahkan tautan ke video tutorial YouTube dengan jarak -->
+        <p class="youtube-link">
+          Untuk tutorial lebih lanjut, Anda dapat menonton video di YouTube
+          tentang Paint di tautan berikut:
+          <a href="https://www.youtube.com/watch?v=Uq7OdViONmQ" target="_blank"
+            >Tonton Tutorial Paint di YouTube</a
+          >.
+        </p>
+      </section>
+
+      <!-- Tombol Kembali -->
+      <div>
+        <a href="index.html" class="back-button">Kembali ke Halaman Utama</a>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Mengenal Software Dasar di Komputer</p>
+    </footer>
+  </body>
+</html>
